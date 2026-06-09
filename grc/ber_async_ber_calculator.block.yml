@@ -1,6 +1,6 @@
 id: ber_async_ber_calculator
 label: Async BER Calculator
-category: '[ber]'
+category: '[BER]'
 
 templates:
   imports: from gnuradio import ber
