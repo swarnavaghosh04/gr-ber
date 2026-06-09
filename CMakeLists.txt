@@ -31,6 +31,8 @@ if(DEFINED ENV{PYBOMBS_PREFIX})
     )
 endif()
 
+cmake_policy(SET CMP0148 OLD)
+
 # Make sure our local CMake Modules path comes first
 list(INSERT CMAKE_MODULE_PATH 0 ${PROJECT_SOURCE_DIR}/cmake/Modules)
 # Find gnuradio to get access to the cmake modules
